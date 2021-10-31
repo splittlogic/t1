@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-use splittlogic\bs5extras\Http\Controllers\t1Controller;
+use splittlogic\t1\Http\Controllers\t1Controller;
 
 Route::get(
   'splittlogic/t1',
