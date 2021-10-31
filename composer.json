@@ -1,0 +1,31 @@
+{
+    "name": "splittlogic/t1",
+    "type": "library",
+    "description": "Laravel Bootstrap 5 Template 1",
+    "homepage": "https://github.com/splittlogic/t1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SplittLogic",
+            "email": "splittlogic@gmail.com"
+        }
+    ],
+    "require": {
+        "splittlogic/bs5extras": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "splittlogic\\t1\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "splittlogic\\t1\\t1ServiceProvider"
+            ],
+            "aliases": {
+                "bs5extras": "splittlogic\\t1\\Facades\\t1"
+            }
+        }
+    }
+}
